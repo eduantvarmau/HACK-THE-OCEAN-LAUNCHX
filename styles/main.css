@@ -1,242 +1,133 @@
-/* Estilos */
-@import url(./nosotros.css);
-@import url(./servicios.css);
-@import url(./ayuda.css);
-@import url(./cita.css);
-@import url(./map.css);
-@import url(./agendar.css);
-@import url(./index.css);
-@import url(./medias.css);
+/* Pagina de Inicio */
 
-
-/*Nuevo*/
-@import url(./chmod.css);
-@import url(./admin.css);
-@import url(./registrar.css);
-/* Variables */
-
-html {
-    scroll-behavior: smooth;
-  }
- 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root {
-    font-family: 'Poppins', sans-serif;
-    --colorWhite: #ffffff;
-    --colorBlack: #000000;
-    --colorBlueClear: #253444;
-    --colorBlueDark: #1A252F;
-    --colorBlueLight: #51789c;
-    --colorGreen: #18BC9C;
-    --colorBone: #f8f6f1;
-    --colorSkye: #6fc3c5;
-    --colorSkyeBlack: #51A0A1;
+/* Estilo Navbar */
+nav {
+    background-color: #EBFAFF;
 }
 
-body{
-background-color: #CAF2FF;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23CAF2FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23c5edfc' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c0e8f9' cx='50' cy='100' r='50'/%3E%3Cg fill='%23bae3f5' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b5def2' cx='50' cy='200' r='50'/%3E%3Cg fill='%23afd9ee' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9d3eb' cx='50' cy='300' r='50'/%3E%3Cg fill='%23a3cee8' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%239cc8e4' cx='50' cy='400' r='50'/%3E%3Cg fill='%2396c2e0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238fbcdd' cx='50' cy='500' r='50'/%3E%3Cg fill='%2388b6d9' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2380afd5' cx='50' cy='600' r='50'/%3E%3Cg fill='%2378a8d1' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%236fa1cd' cx='50' cy='700' r='50'/%3E%3Cg fill='%23659ac9' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235a92c5' cx='50' cy='800' r='50'/%3E%3Cg fill='%234e8ac1' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%234081bd' cx='50' cy='900' r='50'/%3E%3Cg fill='%232d78b8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006EB4' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-
+/* Estilo Background */
+body {
+    background-color: #CAF2FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23CAF2FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23c5edfc' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c0e8f9' cx='50' cy='100' r='50'/%3E%3Cg fill='%23bae3f5' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b5def2' cx='50' cy='200' r='50'/%3E%3Cg fill='%23afd9ee' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9d3eb' cx='50' cy='300' r='50'/%3E%3Cg fill='%23a3cee8' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%239cc8e4' cx='50' cy='400' r='50'/%3E%3Cg fill='%2396c2e0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238fbcdd' cx='50' cy='500' r='50'/%3E%3Cg fill='%2388b6d9' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2380afd5' cx='50' cy='600' r='50'/%3E%3Cg fill='%2378a8d1' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%236fa1cd' cx='50' cy='700' r='50'/%3E%3Cg fill='%23659ac9' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235a92c5' cx='50' cy='800' r='50'/%3E%3Cg fill='%234e8ac1' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%234081bd' cx='50' cy='900' r='50'/%3E%3Cg fill='%232d78b8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006EB4' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
 }
 
-
-
-.navStyle{
-    
-    background-color: var(--colorSkye);
+/* Texto descriptivo de funcionalidades */
+.lead{
+    text-align: justify;
 }
 
-
-.btnNav{
-    color: var(--colorWhite);
-   
+.iconoslink{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-.btnNav:hover{
-    color: var(--colorBlack);
-}
-.btnUserReg{
-    color: var(--colorWhite);
-    border-color: var(--colorWhite);
-}
-.btnUserReg:hover{
-    background-color: var(--colorWhite);
-    color: var(--colorSkye);
-    border-color: var(--colorWhite);
-    
-}
-.btnUserLog{
-    background-color: var(--colorWhite);
-    color: var(--colorSkye);
-    border-color: var(--colorWhite);
-}
-.btnUserLog:hover{
-    background-color: transparent;
-    color: var(--colorWhite);
-    border-color: var(--colorWhite);
+/* Estilo apartado funcionalidades */
+#descripcion1, #descripcion2, #descripcion3, #descripcion4{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
 }
 
-.ulNavStyle{
-    font-weight: bold;
-    
-}
-.active{
-    color: black;
+#descripcion1:hover, #descripcion2:hover, #descripcion3:hover, #descripcion4:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #56f8e5, 12px -5px 15px 5px #58b3f8, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #56f8e5, 12px -5px 15px 5px #58b3f8, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
-.container_user_img{
-    text-align: center;
-}
-.user_img{
-    width: 30%;
+#descripcion1:hover .cambioColor, #descripcion2:hover .cambioColor, #descripcion3:hover .cambioColor, #descripcion4:hover .cambioColor{
+    color:#ffeb3b;
 }
 
-.modal-content{
-    background-color: #e6f7f8;
-}
-
-.center{
-    text-align: center;
-}
-
-/*Efecto glass navbar-scrolling */
-nav.down{
-    background-color: #6fc4c5d8;
-}
-
-/* Scroll color */
-body::-webkit-scrollbar{
-    width: 12px;
-    background: var(--colorWhite);
-}
-
-body::-webkit-scrollbar-thumb{
-    background: var(--colorSkye);
-    border-radius: 25px;
-}
-.btn-scrolltop{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 15px 20px;
-    background: var(--colorSkye);
-    color: var(--colorWhite);
-    border: 1px solid var(--colorWhite);
-    border-radius: 100%;
-    cursor: pointer;
-    /*transform: translateY(100px);*/
-    transform: scale(0);
-    transition: 0.3s;
-    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
-
-
-}
-.btn-scrolltop-on{
-   /*transform: translateY(0);*/
-    transform: scale(1);
-
-}
-.btn-scrolltop:hover{
-    background-color: var(--colorWhite);
-    color: var(--colorSkye);
-    border-color: var(--colorSkyeBlack);
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
-}
-.titleFooter{
-    background-color: var(--colorSkye);
-    color: var(--colorWhite);
-    margin-bottom: 0px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    
-}
-/*FOOTER*/
-.footerStyle{
-    background-color: var(--colorSkye);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    
-}
-
-.footerStyle ul li {
-    display: inline-block;
-    margin: 0 10px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    
-    
-}
-.footerStyle ul li a{
-    display: block;
-    padding: 0 10px;
-    background-color: var(--colorWhite);
-    border-radius: 50px;
-    color: var(--colorSkye);
-    line-height: 50px;
-    font-size: 23px;
-    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
-    transition: .2s;
-}
-
-.footerStyle ul li a:hover{
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
-}
-.footerStyle ul li .icon:hover{
-    background-color: var(--colorSkyeBlack);
-    color: var(--colorWhite);
-}
-
-
-.footerStyleD{
-    background-color: var( --colorSkyeBlack);
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--colorWhite);
-}
-
-.titleStyle{
-    color: var(--colorBlueDark);
-}
-.parrafStyle{
-    color: var(--colorBlueClear);
+/* Estilo Botones */
+.c-button {
+    color: #000;
+    font-weight: 700;
     font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+   }
+   
+   .c-button--gooey {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+   }
+   
+   .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+   }
+   
+   .c-button--gooey .c-button__blobs div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+   }
+   
+   .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+   }
+   
+   .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+   }
+   
+   .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+   }
+   
+   .c-button--gooey:hover {
+    color: #fff;
+   }
+   
+   .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+   }
+
+   button svg {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+    color: #ff0000;
+    transition: transform 0.3s;
+   }
+   
+   button:hover svg {
+    transform: scale(1.2);
+   }
+
+/* Imagenes apartado Funcionalidades */
+.gif{
+    border-radius: 1rem;
+    border: .3rem solid #ffeb3b;
 }
 
-/*STYLE BTN DEFAULT */
-.btnDef{
-    background-color: var(--colorSkye);
-    color: var(--colorWhite);
-    border: none;
+/* Estilo del FOOTER */
+footer {
+    background-color: #d3f0fa;
 }
-
-.btnIn{
-    margin-bottom: 0px;
+.linkf{
+    color: #2c1288;
 }
-
-.btnDef:hover{
-    background-color: var(--colorWhite);
-    color: var(--colorSkye);
-    border: none;
-}
-
-/* Centrar NavBar Responsiva mobile*/
-
-.affix {
-    text-align: center;
-    justify-content: center;
-}
-

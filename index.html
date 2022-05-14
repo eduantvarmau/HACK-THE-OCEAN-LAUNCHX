@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es-MX" xml:lang="es-MX">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tortugas Marinas</title>
-  <link rel="shortcut icon" href="./img/logo.png" />
-  <!--SCRIPTS CSS BOOTSTRAP-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <!--GOOGLE FONTS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
-  <!--MAIN CSS3-->
-  <link rel="stylesheet" href="styles/inicio.css">
+  <title>Inicio AYOTLATL</title>
+  <!--Link CSS-->
+  <link rel="stylesheet" href="./styles/main.css">
+ <!--GOOGLE FONTS-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
   <!--AWESOME-->
   <script src="https://kit.fontawesome.com/049ffeb4b4.js" crossorigin="anonymous"></script>
+  <!--AOS Link de Libreria de animaciones -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Carousel</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tortugas.html">Tortugas Marinas</a>
-          </li>
-        </ul>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Donación</button>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo contigo blanco.png" class="img-fluid d-flex align-items-center" width="100px" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">INICIO <i class="bi bi-house-door-fill"
+                  style="font-size: 1.2rem;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienesSomos.html">NOSOTROS <i class="bi bi-people-fill"
+                  style="font-size: 1.2rem;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">TORTUGAS MARINAS <i class="bi bi-tsunami"
+                  style="font-size: 1.2rem;"></i></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">DONACIÓN <i class="bi bi-currency-exchange"
+              style="font-size: 1.2rem;"></i></button>
+          </form>
+        </div>
       </div>
-    </div>
     </nav>
-  </header><br><br>
+  </header>
+  <!-- Fin Barra de navegacion -->
 
   <main>
-    <!-- Iconos auoredirigibles y descripcion partes de la página -->
-    <div class="container marketing mt-3 mb-5">
-      <h1>ESPECIES MARINAS EN PELIGRO DE EXTINCIÓN</h1><br><br>
-      <!-- Funcionalidades de contigo -->
+      <!-- Información sobre el peligro de extinción -->
+      <div class="container marketing mt-3 mb-5">
+      <h2>ESPECIES MARINAS EN PELIGRO DE EXTINCIÓN</h2>
       <div class="row featurette d-flex align-items-center" data-aos="fade-up">
         <div class="col-md-7">
           <p class="lead">Todos los años se extinguen especies alrededor del mundo, y la lista de las que están en peligro crítico no hace más que aumentar día a día. Algunas son muy conocidas y otras pasan desapercibidas, sin embargo, todas son igual de importantes para mantener el equilibrio de la biodiversidad. 
 
             La pérdida de especies es un suceso natural que data de antes de la aparición del ser humano, de hecho, la investigación científica y los descubrimientos arqueológicos han develado cinco periodos en que estas se dieron de forma exponencial, dándoles el nombre de “extinciones masivas”. Por ejemplo, hace 250 millones de años, ocurrió un evento llamado la “Gran Mortandad”, en donde perecieron alrededor del 95% de las especies marinas y el 70% de los vertebrados terrestres, definiendo el límite de los periodos Pérmico y Triásico.
             
-            Sin embargo, según los expertos, al día de hoy nos encontraríamos en una “Sexta Extinción Masiva”, en la cual el actuar del ser humano sería una de las causas principales en la debacle de la biodiversidad, con acciones como la sobreexplotación de recursos naturales, como madera, metales y minerales, la caza y tráfico ilegal, así como el cambio en el uso de suelo, la contaminación más los efectos del cambio climático y, en especial, la destrucción y fragmentación de los hábitats como bosques, praderas y manglares, con fines agrícolas y pesqueros.
-            </p>
+            Sin embargo, según los expertos, al día de hoy nos encontraríamos en una “Sexta Extinción Masiva”, en la cual el actuar del ser humano sería una de las causas principales en la debacle de la biodiversidad, con acciones como la sobreexplotación de recursos naturales, como madera, metales y minerales, la caza y tráfico ilegal, así como el cambio en el uso de suelo, la contaminación más los efectos del cambio climático y, en especial, la destrucción y fragmentación de los hábitats como bosques, praderas y manglares, con fines agrícolas y pesqueros.</p>
         </div>
         <div class="col-md-5">
             <img src="img/img5.jpeg" alt="Registro de Emociones IMG" class="img-fluid mx-auto">
@@ -81,18 +86,14 @@
         <div class="col-md-7">
           <p class="lead">La Convención sobre el Comercio Internacional de Especies de Flora y Fauna en Peligro de Extinción, o la CITES, por sus siglas en inglés, es un acuerdo global entre los gobiernos para actuar bajo las normas de monitoreo, regulación o prohibición del comercio internacional de especies amenazadas. Las especies enlistadas bajo el marco de la CITES se dividen en tres diferentes niveles de protección. Para mayor información, visitar www.iucnredlist.org y para conocer las especies enlistadas por la CITES, visitar www.speciesplus.net. El Apéndice I incluye plantas y animales con mayor riesgo de extinción en el mundo. El comercio de estas especies o productos derivados de éstas está prohibido. El Apéndice II incluye plantas y animales que no se encuentran amenazados con la extinción aún pero podrían clasificarse como tal si el comercio de estas especies continúa sin regularse. El comercio de estas especies o productos derivados de éstas está permitido, pero está sujeto a restricciones.</p>
         </div>
-        <div class="col-md-5">
-          <img src="img/img3.jpeg" alt="Convive" class="img-fluid mx-auto">
-        </div>
-      </div>
-      <!-- FIN de Funcionalidades de contigo -->
+      <!-- FIN información sobre el peligro de extinción -->
 
-      <!-- Ejemplos de animales en peligro de extinción -->
-      <div class="album py-5 bg-light">
+
+      <!-- Amenanzas de las tortugas marinas -->
         <div class="container">
     
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col-lg-3">
+            <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
     
@@ -121,7 +122,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
     
@@ -129,28 +130,13 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
     
@@ -158,28 +144,14 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+    
+            <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
     
@@ -187,30 +159,13 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div> <br><br>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col-lg-3">
+            <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
     
@@ -218,28 +173,13 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
     
@@ -247,104 +187,50 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary c-button c-button--gooey">Ver más
-                        <div class="c-button__blobs">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        </div>
-                      </button>
-                      <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="goo">
-                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
-                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                          </filter>
-                        </defs>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!-- Fin amenanzas de las tortugas marinas -->
   </main>
 
   <!-- FOOTER -->
   <footer class="footer mt-auto py-3">
     <div class="container">
-    <p id="link" class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy 2022 Tortugas Marinas por CHMOD777 · Todos los Derechos Reservados</p>
-  </div>
+      <div class="row">
+        <div class="col"><p class="float-end"><a href="#" class="linkf"> INICIO</a></p></div>
+        <div class="col"><p class="float-end"><a href="#" class="linkf"> NOSOTROS</a></p></div>
+        <div class="col-3"><p class="float-end"><a href="#" class="linkf"> TORTUGAS MARINAS</a></p></div>
+        <div class="col"><p class="float-end"><a href="#" class="linkf"> DONACIÓN</a></p></div>
+        <div class="col"></div>
+        <div class="col"><p class="float-end"><a href="#" class="linkf"> BACK TO TOP</a></p></div>
+    </div>
+    <div class="row">
+      <p>&copy 2022 Tortugas Marinas por CHMOD777 · Todos los Derechos Reservados</p>
+    </div>
+    </div>
   </footer>
 
-    <!--SCRIPTS JS BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-      crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!--SCRIPTS JS-->
 
+  <!-- Link de Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Link JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Link de Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <!--AOS (Script de CDN)-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--Inicializar AOS-->
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
 
 </body>
 
