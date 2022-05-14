@@ -5,12 +5,12 @@ const log = `../img/baner.png`
 const inc = `Inicio`;
 const inc1 = `../index.html`;
 const nos = `Nosotros`;
-const nos1 = `../page/nosotros.html`;
-const ser = `Tortugas Marinas`;
-const ser1 = `../page/servicios.html`;
+const nos1 = `../pages/nosotros.html`;
+const tor = `Tortugas Marinas`;
+const tor1 = `../pages/tortugas.html`;
 //Botones INGRESAR REGISTRO
-const ing = `Donación`;
-const reg1 = `../page/index.html`;
+const don = `Donación`;
+const don1 = `../pages/donaciones.html`;
 //Modal
 
 
@@ -30,35 +30,21 @@ let myNavbar = `<a class="navbar-brand " href="#" href="../index.html">
     <li class="nav-item " id="tab-nosotros">
       <a class="btn btnNav rounded-pill" href="${nos1}">${nos}</a>
     </li>
-    <li class="nav-item " id="tab-servicios">
-      <a class="btn btnNav rounded-pill" href="${ser1}">${ser}</a>
+    <li class="nav-item " id="tab-tortugas">
+      <a class="btn btnNav rounded-pill" href="${tor1}">${tor}</a>
     </li>
-    <li class="nav-item " id="tab-agendar">
-      <a class="btn btnNav rounded-pill" href="${age1}">${age}</a>
-    </li>
-    <li class="nav-item " id="tab-ayuda">
-      <a class="btn btnNav rounded-pill" href="${ayu1}">${ayu}</a>
-    </li>
-    <li class="nav-item " id="tab-chmod">
-      <a class="btn btnNav rounded-pill" href="${chm1}">${chm}</a>
-    </li>
-    <li class="nav-item " id="tab-admin">
-      <a class="btn btnNav rounded-pill" href="${adm1}">${adm}</a>
+    <li class="nav-item " id="tab-donacion">
+      <a class="btn btnNav rounded-pill" href="${don1}">${don}</a>
     </li>
   </ul>
   </ul>
   <form class="form-inline my-2 my-lg-0 affix ">
-          <button type="button" class="btn btnUserLog my-2 my-lg-0" data-toggle="modal" data-target="#exampleModal"
-            style="border-radius: 16px 1px 1px 16px">
-            ${ing}
-          </button>
-          <botton type="button" class="btn btnUserReg  my-2 my-sm-0" style="border-radius: 1px 16px 16px 1px"
+          <botton type="button" class="btn btnDonacion  my-2 my-sm-0" style="border-radius: 1px 16px 16px 1px"
           onclick="location.href='${reg1}'">
             ${reg}
           </botton>
         </form>
       </div>`
-
 
 //Muestra el footer en pantalla
 anclaNavbar.innerHTML = myNavbar;
