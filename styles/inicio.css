@@ -1,0 +1,102 @@
+/* Pagina de Inicio */
+
+/* Estilo para toda la página tipo de fuente y color */
+*{
+    background-color: #CAF2FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23CAF2FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23c5edfc' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c0e8f9' cx='50' cy='100' r='50'/%3E%3Cg fill='%23bae3f5' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b5def2' cx='50' cy='200' r='50'/%3E%3Cg fill='%23afd9ee' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9d3eb' cx='50' cy='300' r='50'/%3E%3Cg fill='%23a3cee8' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%239cc8e4' cx='50' cy='400' r='50'/%3E%3Cg fill='%2396c2e0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238fbcdd' cx='50' cy='500' r='50'/%3E%3Cg fill='%2388b6d9' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2380afd5' cx='50' cy='600' r='50'/%3E%3Cg fill='%2378a8d1' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%236fa1cd' cx='50' cy='700' r='50'/%3E%3Cg fill='%23659ac9' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235a92c5' cx='50' cy='800' r='50'/%3E%3Cg fill='%234e8ac1' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%234081bd' cx='50' cy='900' r='50'/%3E%3Cg fill='%232d78b8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006EB4' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: contain;
+}
+
+/* Estilo Navbar */
+header {
+    color:black;
+    background-color:#6fc3c5;
+}
+
+/* Estilo Botones */
+.c-button {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+   }
+   
+   .c-button--gooey {
+    color: #06c8d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+   }
+   
+   .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+   }
+   
+   .c-button--gooey .c-button__blobs div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+   }
+   
+   .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+   }
+   
+   .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+   }
+   
+   .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+   }
+   
+   .c-button--gooey:hover {
+    color: #fff;
+   }
+   
+   .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+   }
+
+   button svg {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+    color: #ff0000;
+    transition: transform 0.3s;
+   }
+   
+   button:hover svg {
+    transform: scale(1.2);
+   }
+
+/* Estilo del FOOTER */
+footer {
+    background-color: #6fc3c5;
+    height: 3rem;
+    color: black;
+}
