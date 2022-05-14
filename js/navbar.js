@@ -46,7 +46,6 @@ let myNavbar = `<a class="navbar-brand " href="#" href="../index.html">
         </form>
       </div>`
 
-
 //Muestra el footer en pantalla
 anclaNavbar.innerHTML = myNavbar;
 
