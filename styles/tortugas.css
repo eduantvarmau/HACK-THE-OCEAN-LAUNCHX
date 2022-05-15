@@ -48,6 +48,90 @@ body {
     background-size: contain;
 }
 
+/* Estilo imagenes tortugas */
+h1{
+    text-align: center;
+}
+.containerExtincion{
+    transform-style: preserve-3d;
+    margin-top: 1rem;
+}
+
+.containerExtincion .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.containerExtincion .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.containerExtincion .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.containerExtincion .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.containerExtincion .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0b2b4f;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.containerExtincion .box:hover .body{
+    transform: rotateY(180deg);
+}
+
+.containerExtincion .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #457b9d,#00afb9);
+    transform: translateZ(100px);
+    text-align: center;
+}
+
+.containerExtincion .box .body .content div h3{
+    letter-spacing: 1px;
+    color: white;
+}
+
+.containerExtincion .box .body .content div p{
+    color: white;
+}
+
+
 
 /* Estilo del FOOTER */
 footer {
