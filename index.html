@@ -2,272 +2,192 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio AYOTLATL</title>
-  <!--Link CSS-->
-  <link rel="stylesheet" href="styles/main.css">
-  <!--GOOGLE FONTS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
-  <!--AWESOME-->
-  <script src="https://kit.fontawesome.com/049ffeb4b4.js" crossorigin="anonymous"></script>
-  <!--AOS Link de Libreria de animaciones -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Link de Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio AYOTLATL</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <!--AWESOME-->
+    <script src="https://kit.fontawesome.com/049ffeb4b4.js" crossorigin="anonymous"></script>
+    <!--AOS Link de Libreria de animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link de Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-  <header>
-    <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/ayotl_salve.png"
-            class="img-fluid d-flex align-items-center" width="100px" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">INICIO <i class="bi bi-house-door-fill"
-                  style="font-size: 1.2rem;"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/nosotros.html">NOSOTROS <i class="bi bi-people-fill"
-                  style="font-size: 1.2rem;"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/tortugas.html">TORTUGAS MARINAS <i class="bi bi-tsunami"
-                  style="font-size: 1.2rem;"></i></a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-        <li class="nav-item">
-              <button id="bNav" class="btn" type="submit">
-              <span class="button-content">
-                <a class="nav-link" href="./pages/donacion.html"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 0H24V24H0z" fill="none"></path>
-                  <path
-                    d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z"
-                    fill="currentColor"></path>
-                </svg> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i>
-              </span></a>
-            </button>
-          </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Fin Barra de navegacion -->
+    <header>
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="anclaIndex"></nav>
+    </header>
+    <!-- Fin Barra de navegacion -->
 
-  <main>
-    <!-- Información sobre el peligro de extinción -->
-    <div class="container marketing mt-3 mb-5">
-      <h2>ESPECIES MARINAS EN PELIGRO DE EXTINCIÓN</h2><br>
-      <div class="row featurette d-flex align-items-center cExtincion" data-aos="fade-up">
-        <div class="col-md-7">
-          <p class="lead">Todos los años se extinguen especies alrededor del mundo, y la lista de las que están en
-            peligro crítico no hace más que aumentar día a día. Algunas son muy conocidas y otras pasan desapercibidas,
-            sin embargo, todas son igual de importantes para mantener el equilibrio de la biodiversidad.
-
-            La pérdida de especies es un suceso natural que data de antes de la aparición del ser humano, de hecho, la
-            investigación científica y los descubrimientos arqueológicos han develado cinco periodos en que estas se
-            dieron de forma exponencial, dándoles el nombre de “extinciones masivas”. Por ejemplo, hace 250 millones de
-            años, ocurrió un evento llamado la “Gran Mortandad”, en donde perecieron alrededor del 95% de las especies
-            marinas y el 70% de los vertebrados terrestres, definiendo el límite de los periodos Pérmico y Triásico.
-
-            Sin embargo, según los expertos, al día de hoy nos encontraríamos en una “Sexta Extinción Masiva”, en la
-            cual el actuar del ser humano sería una de las causas principales en la debacle de la biodiversidad, con
-            acciones como la sobreexplotación de recursos naturales, como madera, metales y minerales, la caza y tráfico
-            ilegal, así como el cambio en el uso de suelo, la contaminación más los efectos del cambio climático y, en
-            especial, la destrucción y fragmentación de los hábitats como bosques, praderas y manglares, con fines
-            agrícolas y pesqueros.</p>
-        </div>
-        <div class="col-md-5">
-          <img src="img/extincion6.png" alt="Sexta Extinción" id="sextaExtincion"
-            class="imagenExtincion img-fluid mx-auto">
-        </div>
-      </div>
-      <br>
-      <div class="row featurette d-flex align-items-center cExtincion" data-aos="fade-up">
-        <div class="col-md-7 order-md-2">
-          <p class="lead">Desde 1970, las poblaciones globales de especies marinas explotadas por el ser humano se han
-            reducido a la mitad, incluso algunas de las especies más importantes han experimentado declives aún más
-            graves. En efecto, más de 400 especies marinas vinculadas al consumo humano se encuentran en peligro de
-            extinción. Cada uno de nosotros puede ayudar a proteger el futuro de estas especies al ser conscientes y
-            preocuparnos por el origen de nuestras compras. Siendo la organización de conservación más grande del mundo,
-            WWF combina su fundamento científico y alcance mundial para garantizar que nuestros sistemas alimentarios
-            actuales satisfagan las necesidades de las personas sin dañar a la naturaleza. Habiendo trabajando con la
-            industria de pescados y maricos por más de 20 años, WWF ha ayudado a empresas a impulsar sus cadenas de
-            suministro de alimentos del mar hacia operaciones más sostenibles, responsables y trazables.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="img/consumo humano.jpg" alt="Consumo Humano" id="consumoHumano"
-            class="imagenExtincion img-fluid mx-auto">
-        </div>
-      </div>
-      <br>
-      <div class="row featurette d-flex align-items-center cExtincion" data-aos="fade-up">
-        <div class="col-md-7">
-          <p class="lead">La Convención sobre el Comercio Internacional de Especies de Flora y Fauna en Peligro de
-            Extinción, o la CITES, por sus siglas en inglés, es un acuerdo global entre los gobiernos para actuar bajo
-            las normas de monitoreo, regulación o prohibición del comercio internacional de especies amenazadas. Las
-            especies enlistadas bajo el marco de la CITES se dividen en tres diferentes niveles de protección. Para
-            mayor información, visitar www.iucnredlist.org y para conocer las especies enlistadas por la CITES, visitar
-            www.speciesplus.net. El Apéndice I incluye plantas y animales con mayor riesgo de extinción en el mundo. El
-            comercio de estas especies o productos derivados de éstas está prohibido. El Apéndice II incluye plantas y
-            animales que no se encuentran amenazados con la extinción aún pero podrían clasificarse como tal si el
-            comercio de estas especies continúa sin regularse. El comercio de estas especies o productos derivados de
-            éstas está permitido, pero está sujeto a restricciones.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="img/CITES-logo.png" alt="CITES" id="cites" class="imagenExtincion img-fluid mx-auto">
-        </div>
-      </div><br><br>
-      <!-- FIN información sobre el peligro de extinción -->
+    <main>
+        <!-- Información sobre el peligro de extinción -->
+        <div class="container marketing mt-3 mb-5">
+            <h2>ESPECIES MARINAS EN PELIGRO DE EXTINCIÓN</h2><br>
+            <div class="row featurette d-flex align-items-center cExtincion" data-aos="fade-up">
+                <div class="col-md-7">
+                    <p class="lead">Todos los años se extinguen especies alrededor del mundo, y la lista de las que están en peligro crítico no hace más que aumentar día a día. Algunas son muy conocidas y otras pasan desapercibidas, sin embargo, todas son igual de importantes
+                        para mantener el equilibrio de la biodiversidad. La pérdida de especies es un suceso natural que data de antes de la aparición del ser humano, de hecho, la investigación científica y los descubrimientos arqueológicos han develado
+                        cinco periodos en que estas se dieron de forma exponencial, dándoles el nombre de “extinciones masivas”. Por ejemplo, hace 250 millones de años, ocurrió un evento llamado la “Gran Mortandad”, en donde perecieron alrededor del 95%
+                        de las especies marinas y el 70% de los vertebrados terrestres, definiendo el límite de los periodos Pérmico y Triásico. Sin embargo, según los expertos, al día de hoy nos encontraríamos en una “Sexta Extinción Masiva”, en la cual
+                        el actuar del ser humano sería una de las causas principales en la debacle de la biodiversidad, con acciones como la sobreexplotación de recursos naturales, como madera, metales y minerales, la caza y tráfico ilegal, así como el
+                        cambio en el uso de suelo, la contaminación más los efectos del cambio climático y, en especial, la destrucción y fragmentación de los hábitats como bosques, praderas y manglares, con fines agrícolas y pesqueros.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/extincion6.png" alt="Sexta Extinción" id="sextaExtincion" class="imagenExtincion img-fluid mx-auto">
+                </div>
+            </div>
+            <br>
+            <div class="row featurette d-flex align-items-center cExtincion" data-aos="fade-up">
+                <div class="col-md-7 order-md-2">
+                    <p class="lead">Desde 1970, las poblaciones globales de especies marinas explotadas por el ser humano se han reducido a la mitad, incluso algunas de las especies más importantes han experimentado declives aún más graves. En efecto, más de 400 especies
+                        marinas vinculadas al consumo humano se encuentran en peligro de extinción. Cada uno de nosotros puede ayudar a proteger el futuro de estas especies al ser conscientes y preocuparnos por el origen de nuestras compras. Siendo la
+                        organización de conservación más grande del mundo, WWF combina su fundamento científico y alcance mundial para garantizar que nuestros sistemas alimentarios actuales satisfagan las necesidades de las personas sin dañar a la naturaleza.
+                        Habiendo trabajando con la industria de pescados y maricos por más de 20 años, WWF ha ayudado a empresas a impulsar sus cadenas de suministro de alimentos del mar hacia operaciones más sostenibles, responsables y trazables.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/consumo humano.jpg" alt="Consumo Humano" id="consumoHumano" class="imagenExtincion img-fluid mx-auto">
+                </div>
+            </div>
+            <br>
+            <div class="row featurette d-flex align-items-center cExtincion" data-aos="fade-up">
+                <div class="col-md-7">
+                    <p class="lead">La Convención sobre el Comercio Internacional de Especies de Flora y Fauna en Peligro de Extinción, o la CITES, por sus siglas en inglés, es un acuerdo global entre los gobiernos para actuar bajo las normas de monitoreo, regulación
+                        o prohibición del comercio internacional de especies amenazadas. Las especies enlistadas bajo el marco de la CITES se dividen en tres diferentes niveles de protección. Para mayor información, visitar www.iucnredlist.org y para
+                        conocer las especies enlistadas por la CITES, visitar www.speciesplus.net. El Apéndice I incluye plantas y animales con mayor riesgo de extinción en el mundo. El comercio de estas especies o productos derivados de éstas está prohibido.
+                        El Apéndice II incluye plantas y animales que no se encuentran amenazados con la extinción aún pero podrían clasificarse como tal si el comercio de estas especies continúa sin regularse. El comercio de estas especies o productos
+                        derivados de éstas está permitido, pero está sujeto a restricciones.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/CITES-logo.png" alt="CITES" id="cites" class="imagenExtincion img-fluid mx-auto">
+                </div>
+            </div><br><br>
+            <!-- FIN información sobre el peligro de extinción -->
 
 
-      <!-- Amenanzas de las tortugas marinas -->
-      <div class="container" data-aos="fade-up">
-        <h2>LAS AMENAZAS DE LAS TORTUGAS MARINAS </h2>
-        <p>Las tortugas marinas son un enlace fundamental con los ecosistemas marinos. Ayudan a mantener la salud de
-          los lechos de pastos marinos y los arrecifes coralinos, que benefician a especies con valor comercial, como
-          el camarón, la langosta y el atún. Las tortugas marinas son representantes vivos de un grupo de reptiles que
-          han existido en el Planeta Tierra y han recorrido nuestros mares durante los últimos 100 millones de años.
-          Las tortugas tienen un significado cultural muy importante y un valor turístico considerable. Las tortugas
-          marinas pueden poner más de 150 huevos por nido y pueden anidar varias veces en cada estación, con lo cual
-          compensan las altas tasas de mortalidad que impiden a la mayoría de las tortugas marinas llegar a la
-          madurez.</p>
-        <!-- Cards -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-aos="fade-up">
-          <div class="col">
-              <img src="img/cazafurtiva.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225">
-              <div class="card-body cAmenazas">
-                <h6><b>CAZA FURTIVA Y CONSUMO DIRECTO</b></h6>
-                <p class="card-text">La caza y recolección de huevos para su consumo son las causas principales de la
-                  drástica reducción en las poblaciones de todo el mundo. Los huevos de tortugas se consideran un
-                  afrodisíaco en algunos países y se comen crudos o se venden como bocadillos en bares y restaurantes.
+            <!-- Amenanzas de las tortugas marinas -->
+            <div class="container" data-aos="fade-up">
+                <h2>LAS AMENAZAS DE LAS TORTUGAS MARINAS </h2>
+                <p>Las tortugas marinas son un enlace fundamental con los ecosistemas marinos. Ayudan a mantener la salud de los lechos de pastos marinos y los arrecifes coralinos, que benefician a especies con valor comercial, como el camarón, la langosta
+                    y el atún. Las tortugas marinas son representantes vivos de un grupo de reptiles que han existido en el Planeta Tierra y han recorrido nuestros mares durante los últimos 100 millones de años. Las tortugas tienen un significado cultural
+                    muy importante y un valor turístico considerable. Las tortugas marinas pueden poner más de 150 huevos por nido y pueden anidar varias veces en cada estación, con lo cual compensan las altas tasas de mortalidad que impiden a la mayoría
+                    de las tortugas marinas llegar a la madurez.
                 </p>
-            </div>
-          </div>
+                <!-- Cards -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-aos="fade-up">
+                    <div class="col">
+                        <img src="img/cazafurtiva.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        <div class="card-body cAmenazas">
+                            <h6><b>CAZA FURTIVA Y CONSUMO DIRECTO</b></h6>
+                            <p class="card-text">La caza y recolección de huevos para su consumo son las causas principales de la drástica reducción en las poblaciones de todo el mundo. Los huevos de tortugas se consideran un afrodisíaco en algunos países y se comen crudos
+                                o se venden como bocadillos en bares y restaurantes.
+                            </p>
+                        </div>
+                    </div>
 
 
-          <div class="col">
-              <img src="img/cazaincidental.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225">
-                <div class="card-body cAmenazas">
-                <h6><b>PESCA INCIDENTAL</b></h6>
-                <p class="card-text">Cada año, miles de tortugas se ven atrapadas a causa de las operaciones
-                  camaroneras. Las tortugas marinas son reptiles, por lo que, si no pueden llegar hasta la superficie
-                  para respirar, se ahogan. Las pesquerías que utilizan palangres y redes de enmalle también son de las
-                  mayores causas de mortalidad entre las tortugas marinas. Todos los años hay tortugas marinas quedan
-                  atrapadas en las plumas de arrastre, en los anzuelos de los palangres y en las redes de pesca.</p>
-              </div>
-          </div>
+                    <div class="col">
+                        <img src="img/cazaincidental.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        <div class="card-body cAmenazas">
+                            <h6><b>PESCA INCIDENTAL</b></h6>
+                            <p class="card-text">Cada año, miles de tortugas se ven atrapadas a causa de las operaciones camaroneras. Las tortugas marinas son reptiles, por lo que, si no pueden llegar hasta la superficie para respirar, se ahogan. Las pesquerías que utilizan
+                                palangres y redes de enmalle también son de las mayores causas de mortalidad entre las tortugas marinas. Todos los años hay tortugas marinas quedan atrapadas en las plumas de arrastre, en los anzuelos de los palangres y
+                                en las redes de pesca.</p>
+                        </div>
+                    </div>
 
 
-          <div class="col">
-              <img src="img/comercioilegal.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225">
-                <div class="card-body cAmenazas">
-                <h6><b>COMERCIO ILEGAL</b></h6>
-                <p class="card-text">La fuerte demanda y los altos precios del mercado de los caparazones de las
-                  tortugas marinas –especialmente los de las tortugas carey– y los productos fabricados con el cuero de
-                  las tortugas baulas amenazan a las poblaciones de estas especies vulnerables.</p>
-            </div>
-          </div>
+                    <div class="col">
+                        <img src="img/comercioilegal.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        <div class="card-body cAmenazas">
+                            <h6><b>COMERCIO ILEGAL</b></h6>
+                            <p class="card-text">La fuerte demanda y los altos precios del mercado de los caparazones de las tortugas marinas –especialmente los de las tortugas carey– y los productos fabricados con el cuero de las tortugas baulas amenazan a las poblaciones
+                                de estas especies vulnerables.</p>
+                        </div>
+                    </div>
 
-          <div class="col" data-aos="fade-up">
-              <img src="img/cambioclimatico.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225">
-              <div class="card-body cAmenazas">
-                <h6><b>CAMBIO CLIMÁTICO</b></h6>
-                <p class="card-text">El clima cambiante y el calentamiento global pueden causar un impacto severo en las
-                  poblaciones de tortugas. La determinación del sexo de las tortugas marinas depende de la temperatura.
-                  Un cambio en las temperaturas globales altera la temperatura de la arena, lo cual afecta el sexo de
-                  las crías e incrementa el riesgo de una inestabilidad en la composición de las poblaciones. </p>
-            </div>
-          </div>
+                    <div class="col" data-aos="fade-up">
+                        <img src="img/cambioclimatico.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        <div class="card-body cAmenazas">
+                            <h6><b>CAMBIO CLIMÁTICO</b></h6>
+                            <p class="card-text">El clima cambiante y el calentamiento global pueden causar un impacto severo en las poblaciones de tortugas. La determinación del sexo de las tortugas marinas depende de la temperatura. Un cambio en las temperaturas globales
+                                altera la temperatura de la arena, lo cual afecta el sexo de las crías e incrementa el riesgo de una inestabilidad en la composición de las poblaciones. </p>
+                        </div>
+                    </div>
 
 
-          <div class="col" data-aos="fade-up">
-              <img src="img/contaminacion.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225">
-              <div class="card-body cAmenazas">
-                <h6><b>BASURA Y CONTAMINACIÓN MARINAS</b></h6>
-                <p class="card-text">Las tortugas marinas pueden confundir los objetos de material plástico que flotan
-                  en el mar con alimento, como las medusas, y se asfixian cuando tratan de comerlos. Se enredan con los
-                  aparejos de pesca que se han desechado, y se ahogan o no pueden alimentarse o nadar. La basura en las
-                  playas puede atrapar a las crías recién eclosionadas y evitar que lleguen al mar. Los derrames de
-                  petróleo pueden envenenar a las tortugas de todas las edades.</p>
-            </div>
-          </div>
+                    <div class="col" data-aos="fade-up">
+                        <img src="img/contaminacion.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        <div class="card-body cAmenazas">
+                            <h6><b>BASURA Y CONTAMINACIÓN MARINAS</b></h6>
+                            <p class="card-text">Las tortugas marinas pueden confundir los objetos de material plástico que flotan en el mar con alimento, como las medusas, y se asfixian cuando tratan de comerlos. Se enredan con los aparejos de pesca que se han desechado,
+                                y se ahogan o no pueden alimentarse o nadar. La basura en las playas puede atrapar a las crías recién eclosionadas y evitar que lleguen al mar. Los derrames de petróleo pueden envenenar a las tortugas de todas las edades.</p>
+                        </div>
+                    </div>
 
 
-          <div class="col" data-aos="fade-up">
-              <img src="img/urbanizacion.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225">
-              <div class="card-body cAmenazas">
-                <h6><b>URBANIZACIÓN COSTERA Y PÉRDIDA DE HÁBITATS PARA ANIDAR Y BUSCAR ALIMENTACIÓN</b></h6>
-                <p class="card-text">Con la urbanización costera sin control se han destruido playas que son esenciales
-                  para la anidación. Las luces provenientes de las carreteras y los edificios atraen a las crías recién
-                  eclosionadas y las desorientan, alejándolas del mar. El tránsito de personas y vehículos en los
-                  proyectos de restauración de playas, que incluyen trabajos de dragado y relleno de arena, destruye las
-                  áreas de alimentación cercanas a la orilla y las playas donde anidan las tortugas.</p>
-            </div>
-          </div>
-  </main>
+                    <div class="col" data-aos="fade-up">
+                        <img src="img/urbanizacion.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        <div class="card-body cAmenazas">
+                            <h6><b>URBANIZACIÓN COSTERA Y PÉRDIDA DE HÁBITATS PARA ANIDAR Y BUSCAR ALIMENTACIÓN</b></h6>
+                            <p class="card-text">Con la urbanización costera sin control se han destruido playas que son esenciales para la anidación. Las luces provenientes de las carreteras y los edificios atraen a las crías recién eclosionadas y las desorientan, alejándolas
+                                del mar. El tránsito de personas y vehículos en los proyectos de restauración de playas, que incluyen trabajos de dragado y relleno de arena, destruye las áreas de alimentación cercanas a la orilla y las playas donde anidan
+                                las tortugas.</p>
+                        </div>
+                    </div>
+    </main>
 
-  <!-- FOOTER -->
-  <footer class="footer mt-auto py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p class="float-end"><a href="index.html" class="linkf"> INICIO <i class="bi bi-house-door-fill"
+    <!-- FOOTER -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="float-end"><a href="index.html" class="linkf"> INICIO <i class="bi bi-house-door-fill"
             style="font-size: 1.2rem;"></i></a></p>
-        </div>
-        <div class="col">
-          <p class="float-end"><a href="./pages/nosotros.html" class="linkf"> NOSOTROS <i class="bi bi-people-fill"
+                </div>
+                <div class="col">
+                    <p class="float-end"><a href="./pages/nosotros.html" class="linkf"> NOSOTROS <i class="bi bi-people-fill"
             style="font-size: 1.2rem;"></i></a></p>
-        </div>
-        <div class="col-3">
-          <p class="float-end"><a href="./pages/tortugas.html" class="linkf"> TORTUGAS MARINAS <i class="bi bi-tsunami"
+                </div>
+                <div class="col-3">
+                    <p class="float-end"><a href="./pages/tortugas.html" class="linkf"> TORTUGAS MARINAS <i class="bi bi-tsunami"
             style="font-size: 1.2rem;"></i></a></p>
+                </div>
+                <div class="col">
+                    <p class="float-end"><a href="./pages/donacion.html" class="linkf"> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i></a></p>
+                </div>
+                <div class="col"></div>
+                <div class="col">
+                    <p class="float-end"><a href="#" class="linkf"> BACK TO TOP <i class="bi bi-arrow-up-circle-fill" style="font-size: 1.2rem;"></i></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <p style="text-align:center">&copy 2022 Tortugas Marinas por CHMOD777 · Todos los Derechos Reservados · Información recabada de World Wildlife Fund (WWF)</p>
+            </div>
         </div>
-        <div class="col">
-          <p class="float-end"><a href="./pages/donacion.html" class="linkf"> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i></a></p>
-        </div>
-        <div class="col"></div>
-        <div class="col">
-          <p class="float-end"><a href="#" class="linkf"> BACK TO TOP <i class="bi bi-arrow-up-circle-fill" style="font-size: 1.2rem;"></i></a></p>
-        </div>
-      </div>
-      <div class="row">
-        <p style="text-align:center">&copy 2022 Tortugas Marinas por CHMOD777 · Todos los Derechos Reservados ·
-          Información recabada de World Wildlife Fund (WWF)</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
-  <!-- Link JS de Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  <!-- Link de Iconos de Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Link JS de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Link de Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-  <!--AOS (Script de CDN)-->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!--Inicializar AOS-->
- <script src="./js/librery.js"></script>
+    <!--AOS (Script de CDN)-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Inicializar AOS-->
+    <script src="./js/librery.js"></script>
+    <!--Navbar Dinamica-->
+    <script src="../js/navbar.js "></script>
 
 </body>
 
