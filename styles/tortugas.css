@@ -49,47 +49,6 @@ body {
 }
 
 
-/* Estilo de texto */
-h2{
-    text-align: center;
-}
-h6{
-    text-align: center;
-    /* font-weight:900; */
-}
-p{
-    text-align: justify;
-}
-
-/* Estilo de texto apartado peligro de extincion */
-.cExtincion{
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 15px;
-}
-
-/* Estilo de imagenes apratdo peligro de extincion */
-.imagenExtincion{
-    border-radius: 1rem;
-}
-#sextaExtincion{
-    height: 30rem;
-}
-#consumoHumano{
-    height: 20rem;
-}
-#cites{
-    height: 20rem;
-}
-
-.card-body{
-    height: 22rem;
-}
-.cAmenazas{
-    background-color: rgba(255, 255, 255, 0.3);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
 /* Estilo del FOOTER */
 footer {
     background-color: #d3f0fa;
