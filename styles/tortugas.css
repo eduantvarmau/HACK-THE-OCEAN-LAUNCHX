@@ -1,9 +1,10 @@
-/* Pagina de Inicio */
+/* Pagina de Tortuga */
 
 /* Estilo Navbar */
 .navbar {
     background-color: #EBFAFF;
     color: #0b2b4f;
+    margin-bottom: 3rem;
 }
 .bi {
     color:#091b2d;
@@ -46,6 +47,7 @@ body {
     background-attachment: fixed;
     background-size: contain;
 }
+
 
 /* Estilo de texto */
 h2{
