@@ -26,7 +26,7 @@
     <!-- Barra de Navegación -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/Logo contigo blanco.png"
+        <a class="navbar-brand" href="index.html"><img src="img/ayotl_salve.png"
             class="img-fluid d-flex align-items-center" width="100px" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,26 +39,28 @@
                   style="font-size: 1.2rem;"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="quienesSomos.html">NOSOTROS <i class="bi bi-people-fill"
+              <a class="nav-link" href="./pages/nosotros.html">NOSOTROS <i class="bi bi-people-fill"
                   style="font-size: 1.2rem;"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactanos.html">TORTUGAS MARINAS <i class="bi bi-tsunami"
+              <a class="nav-link" href="./pages/tortugas.html">TORTUGAS MARINAS <i class="bi bi-tsunami"
                   style="font-size: 1.2rem;"></i></a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <button id="bNav" class="btn" type="submit">
+          <ul class="navbar-nav">
+        <li class="nav-item">
+              <button id="bNav" class="btn" type="submit">
               <span class="button-content">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <a class="nav-link" href="./pages/donacion.html"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0H24V24H0z" fill="none"></path>
                   <path
                     d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z"
                     fill="currentColor"></path>
                 </svg> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i>
-              </span>
+              </span></a>
             </button>
-          </form>
+          </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -144,70 +146,24 @@
           compensan las altas tasas de mortalidad que impiden a la mayoría de las tortugas marinas llegar a la
           madurez.</p>
         <!-- Cards -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-aos="fade-up">
           <div class="col">
-            <div class="card shadow-sm">
               <img src="img/cazafurtiva.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <div class="card-body">
+                height="225">
+              <div class="card-body cAmenazas">
                 <h6><b>CAZA FURTIVA Y CONSUMO DIRECTO</b></h6>
                 <p class="card-text">La caza y recolección de huevos para su consumo son las causas principales de la
                   drástica reducción en las poblaciones de todo el mundo. Los huevos de tortugas se consideran un
                   afrodisíaco en algunos países y se comen crudos o se venden como bocadillos en bares y restaurantes.
                 </p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                  Launch static backdrop modal
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        ...
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="d-flex align-items-center">
-                  <button type="button" class="c-button c-button--gooey" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop"> Ver más
-                    <div class="c-button__blobs">
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                    </div>
-                  </button>
-                  <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <filter id="goo">
-                        <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
-                        <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix"
-                          in="blur"></feColorMatrix>
-                        <feBlend in2="goo" in="SourceGraphic"></feBlend>
-                      </filter>
-                    </defs>
-                  </svg>
-                </div>
-              </div>
             </div>
           </div>
 
 
           <div class="col">
-            <div class="card shadow-sm">
               <img src="img/cazaincidental.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-
-              <div class="card-body">
+                height="225">
+                <div class="card-body cAmenazas">
                 <h6><b>PESCA INCIDENTAL</b></h6>
                 <p class="card-text">Cada año, miles de tortugas se ven atrapadas a causa de las operaciones
                   camaroneras. Las tortugas marinas son reptiles, por lo que, si no pueden llegar hasta la superficie
@@ -215,70 +171,57 @@
                   mayores causas de mortalidad entre las tortugas marinas. Todos los años hay tortugas marinas quedan
                   atrapadas en las plumas de arrastre, en los anzuelos de los palangres y en las redes de pesca.</p>
               </div>
-            </div>
           </div>
 
 
           <div class="col">
-            <div class="card shadow-sm">
               <img src="img/comercioilegal.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-
-              <div class="card-body">
+                height="225">
+                <div class="card-body cAmenazas">
                 <h6><b>COMERCIO ILEGAL</b></h6>
                 <p class="card-text">La fuerte demanda y los altos precios del mercado de los caparazones de las
                   tortugas marinas –especialmente los de las tortugas carey– y los productos fabricados con el cuero de
                   las tortugas baulas amenazan a las poblaciones de estas especies vulnerables.</p>
-              </div>
             </div>
           </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
+          <div class="col" data-aos="fade-up">
               <img src="img/cambioclimatico.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-
-              <div class="card-body">
+                height="225">
+              <div class="card-body cAmenazas">
                 <h6><b>CAMBIO CLIMÁTICO</b></h6>
                 <p class="card-text">El clima cambiante y el calentamiento global pueden causar un impacto severo en las
                   poblaciones de tortugas. La determinación del sexo de las tortugas marinas depende de la temperatura.
                   Un cambio en las temperaturas globales altera la temperatura de la arena, lo cual afecta el sexo de
                   las crías e incrementa el riesgo de una inestabilidad en la composición de las poblaciones. </p>
-              </div>
             </div>
           </div>
 
 
-          <div class="col">
-            <div class="card shadow-sm">
+          <div class="col" data-aos="fade-up">
               <img src="img/contaminacion.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-
-              <div class="card-body">
+                height="225">
+              <div class="card-body cAmenazas">
                 <h6><b>BASURA Y CONTAMINACIÓN MARINAS</b></h6>
                 <p class="card-text">Las tortugas marinas pueden confundir los objetos de material plástico que flotan
                   en el mar con alimento, como las medusas, y se asfixian cuando tratan de comerlos. Se enredan con los
                   aparejos de pesca que se han desechado, y se ahogan o no pueden alimentarse o nadar. La basura en las
                   playas puede atrapar a las crías recién eclosionadas y evitar que lleguen al mar. Los derrames de
                   petróleo pueden envenenar a las tortugas de todas las edades.</p>
-              </div>
             </div>
           </div>
 
 
-          <div class="col">
-            <div class="card shadow-sm">
+          <div class="col" data-aos="fade-up">
               <img src="img/urbanizacion.jpg" alt="CazaFurtiva" class="bd-placeholder-img card-img-top" width="100%"
-                height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-
-              <div class="card-body">
+                height="225">
+              <div class="card-body cAmenazas">
                 <h6><b>URBANIZACIÓN COSTERA Y PÉRDIDA DE HÁBITATS PARA ANIDAR Y BUSCAR ALIMENTACIÓN</b></h6>
                 <p class="card-text">Con la urbanización costera sin control se han destruido playas que son esenciales
                   para la anidación. Las luces provenientes de las carreteras y los edificios atraen a las crías recién
                   eclosionadas y las desorientan, alejándolas del mar. El tránsito de personas y vehículos en los
                   proyectos de restauración de playas, que incluyen trabajos de dragado y relleno de arena, destruye las
                   áreas de alimentación cercanas a la orilla y las playas donde anidan las tortugas.</p>
-              </div>
             </div>
           </div>
   </main>
@@ -288,20 +231,23 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <p class="float-end"><a href="#" class="linkf"> INICIO</a></p>
+          <p class="float-end"><a href="index.html" class="linkf"> INICIO <i class="bi bi-house-door-fill"
+            style="font-size: 1.2rem;"></i></a></p>
         </div>
         <div class="col">
-          <p class="float-end"><a href="#" class="linkf"> NOSOTROS</a></p>
+          <p class="float-end"><a href="./pages/nosotros.html" class="linkf"> NOSOTROS <i class="bi bi-people-fill"
+            style="font-size: 1.2rem;"></i></a></p>
         </div>
         <div class="col-3">
-          <p class="float-end"><a href="#" class="linkf"> TORTUGAS MARINAS</a></p>
+          <p class="float-end"><a href="./pages/tortugas.html" class="linkf"> TORTUGAS MARINAS <i class="bi bi-tsunami"
+            style="font-size: 1.2rem;"></i></a></p>
         </div>
         <div class="col">
-          <p class="float-end"><a href="#" class="linkf"> DONACIÓN</a></p>
+          <p class="float-end"><a href="./pages/donacion.html" class="linkf"> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i></a></p>
         </div>
         <div class="col"></div>
         <div class="col">
-          <p class="float-end"><a href="#" class="linkf"> BACK TO TOP</a></p>
+          <p class="float-end"><a href="#" class="linkf"> BACK TO TOP <i class="bi bi-arrow-up-circle-fill" style="font-size: 1.2rem;"></i></a></p>
         </div>
       </div>
       <div class="row">
@@ -321,11 +267,7 @@
   <!--AOS (Script de CDN)-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!--Inicializar AOS-->
-  <script>
-    AOS.init({
-      once: true
-    });
-  </script>
+ <script src="./js/librery.js"></script>
 
 </body>
 
