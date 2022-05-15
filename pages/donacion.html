@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../img/tortuga.png" />
+    <!--Link CSS-->
+    <link rel="stylesheet" href="../styles/registro.css">
+
+  <link rel="stylesheet" href="../styles/main.css">
+  
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+  <!--AWESOME-->
+  <script src="https://kit.fontawesome.com/049ffeb4b4.js" crossorigin="anonymous"></script>
+  <!--AOS Link de Libreria de animaciones -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Link de Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<header>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/ayotl_salve.png"
+            class="img-fluid d-flex align-items-center" width="170px" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">INICIO <i class="bi bi-house-door-fill"
+                  style="font-size: 1.2rem;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nosotros.html">NOSOTROS <i class="bi bi-people-fill"
+                  style="font-size: 1.2rem;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/tortugas.html">TORTUGAS MARINAS <i class="bi bi-tsunami"
+                  style="font-size: 1.2rem;"></i></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+        <li class="nav-item">
+              <button id="bNav" class="btn" type="submit">
+              <span class="button-content">
+                <a class="nav-link" href="../pages/donacion.html"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0H24V24H0z" fill="none"></path>
+                  <path
+                    d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z"
+                    fill="currentColor"></path>
+                </svg> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i>
+              </span></a>
+            </button>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Fin Barra de navegacion -->
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-9">
+                    <div class="card" id="cardRegistro">
+                        <div class="card-bodyForm">
+                          <div class="row">
+                              <div class="col d-flex justify-content-center">
+                                  <h1>¡Salva a las tortugas!</h1>
+                              </div>
+                          </div>
+                          <br>
+                            <div class="container">
+                                <form action="iniciarSesion.html" class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" minlength="2" pattern="^[A-Za-z ]+$" title="Solo puedes usar letras y espacios en este campo">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Apellidos</label>
+                                        <input type="text" class="form-control" minlength="4" name="lastName" id="lastName" pattern="^[A-Za-z ]+$" title="Solo puedes usar letras y espacios en este campo" required="" />
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="inputCity" class="form-label">Correo</label>
+                                        <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
+                                        placeholder="tucorreo@correo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                        title="Recuerda que el formato a seguir es: tucorreo@correo.com" required="" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Pais</label>
+                                        <input type="text" class="form-control" minlength="2" pattern="^[A-Za-z ]+$" title="Solo puedes usar letras y espacios en este campo">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Estado (opcional)</label>
+                                        <input type="text" class="form-control" minlength="2" pattern="^[A-Za-z ]+$" title="Solo puedes usar letras y espacios en este campo">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="exampleFormControlInput1">Numero de tarjeta</label>
+                                        <input type="number" class="form-control numero" id="InputPhone"
+                                            placeholder="" pattern="^\d{12,12}" title="Este campo solo permite el uso de números">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="exampleFormControlInput1">MM/AA</label>
+                                        <input type="number" class="form-control numero" id="InputPhone"
+                                            placeholder="" pattern="^\d{12,12}" title="Este campo solo permite el uso de números">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="exampleFormControlInput1">CVV</label>
+                                        <input type="number" class="form-control numero" id="InputPhone"
+                                            placeholder="" pattern="^\d{12,12}" title="Este campo solo permite el uso de números">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputAddress2" class="form-label">Moneda</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>MXN</option>
+                                            <option value="1">USD</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <label for="exampleFormControlInput1">Cantidad</label>
+                                        <input type="number" class="form-control numero" id="InputPhone"
+                                            placeholder="" pattern="^\d{12,12}" title="Este campo solo permite el uso de números">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="exampleFormControlTextarea1">Dejanos tu mensaje</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                      </div>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <button class="c-button c-button--gooey"> Donar
+                                            <div class="c-button__blobs">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            </div>
+                                          </button>
+                                          <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <defs>
+                                              <filter id="goo">
+                                                <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                                                <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                                                <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                                              </filter>
+                                            </defs>
+                                          </svg>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-- FOOTER -->
+<footer class="footer mt-auto py-3">
+  <div class="container">
+      <div class="row">
+          <div class="col">
+              <p class="float-end"><a href="index.html" class="linkf"> INICIO <i class="bi bi-house-door-fill"
+      style="font-size: 1.2rem;"></i></a></p>
+          </div>
+          <div class="col">
+              <p class="float-end"><a href="./pages/nosotros.html" class="linkf"> NOSOTROS <i class="bi bi-people-fill"
+      style="font-size: 1.2rem;"></i></a></p>
+          </div>
+          <div class="col-3">
+              <p class="float-end"><a href="./pages/tortugas.html" class="linkf"> TORTUGAS MARINAS <i class="bi bi-tsunami"
+      style="font-size: 1.2rem;"></i></a></p>
+          </div>
+          <div class="col">
+              <p class="float-end"><a href="./pages/donacion.html" class="linkf"> DONACIÓN <i class="bi bi-currency-exchange" style="font-size: 1.2rem;"></i></a></p>
+          </div>
+          <div class="col"></div>
+          <div class="col">
+              <p class="float-end"><a href="#" class="linkf"> BACK TO TOP <i class="bi bi-arrow-up-circle-fill" style="font-size: 1.2rem;"></i></a></p>
+          </div>
+      </div>
+      <div class="row">
+          <p style="text-align:center">&copy 2022 Tortugas Marinas por CHMOD777 · Todos los Derechos Reservados · Información recabada de World Wildlife Fund (WWF)</p>
+      </div>
+  </div>
+</footer>
+
+
+<!-- Link JS de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Link de Iconos de Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+<!--AOS (Script de CDN)-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Inicializar AOS-->
+<script src="./js/librery.js"></script>
+<!--Navbar Dinamica-->
+<script src="../js/navbar.js "></script>
+    </main>
+</body>
+</html>
