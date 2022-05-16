@@ -1,0 +1,98 @@
+/* Pagina de Inicio */
+
+/* Estilo Navbar */
+.navbar {
+    background-color: #EBFAFF;
+    color: #0b2b4f;
+}
+.bi {
+    color:#091b2d;
+}
+#bNav {
+ font-size: 17px;
+ font-family: inherit;
+ font-weight: 700;
+ padding: 3px;
+ border-radius: 20px;
+ border: none;
+ color: black;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+ background: linear-gradient(rgba(0,91,187,1) 47%, #0b2b4f 100%);
+}
+
+button .button-content {
+ display: flex;
+ align-items: center;
+ background: #44a2d1;
+ border-radius: 16px;
+}
+
+button svg {
+ width: 22px;
+ height: 22px;
+ margin-right: 6px;
+ color: #ff0000;
+ transition: transform 0.3s;
+}
+
+button:hover svg {
+ transform: scale(1.2);
+}
+
+/* Estilo Background */
+body {
+    background-color: #CAF2FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23CAF2FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23c5edfc' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c0e8f9' cx='50' cy='100' r='50'/%3E%3Cg fill='%23bae3f5' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b5def2' cx='50' cy='200' r='50'/%3E%3Cg fill='%23afd9ee' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9d3eb' cx='50' cy='300' r='50'/%3E%3Cg fill='%23a3cee8' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%239cc8e4' cx='50' cy='400' r='50'/%3E%3Cg fill='%2396c2e0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238fbcdd' cx='50' cy='500' r='50'/%3E%3Cg fill='%2388b6d9' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2380afd5' cx='50' cy='600' r='50'/%3E%3Cg fill='%2378a8d1' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%236fa1cd' cx='50' cy='700' r='50'/%3E%3Cg fill='%23659ac9' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235a92c5' cx='50' cy='800' r='50'/%3E%3Cg fill='%234e8ac1' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%234081bd' cx='50' cy='900' r='50'/%3E%3Cg fill='%232d78b8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006EB4' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/* Estilo de texto */
+h2{
+    text-align: center;
+}
+h6{
+    text-align: center;
+    /* font-weight:900; */
+}
+p{
+    text-align: justify;
+}
+
+/* Estilo mision, vision y objetivo */
+#cardAyotlatl{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+#Enfoque1, #Enfoque2, #Enfoque3{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+#Enfoque1:hover .efectoColor, #Enfoque2:hover .efectoColor, #Enfoque3:hover .efectoColor, #Enfoque4:hover .efectoColor{
+    color:#6bc6dd;
+    }
+    
+    #cardAyotlatl:hover h1{
+        color:#6bc6dd;
+        }
+
+/* Estilo apartado desarrolladores */
+.developers{
+    margin-bottom: 2rem;
+}
+
+.explorer{
+    align-items: center;
+}
+
+
+/* Estilo del FOOTER */
+footer {
+    background-color: #d3f0fa;
+}
+.linkf{
+    color: #0b2b4f;
+    text-decoration: none;
+}
+
