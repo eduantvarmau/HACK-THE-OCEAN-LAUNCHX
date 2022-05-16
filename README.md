@@ -40,7 +40,7 @@ index.html
 
 - <a href="https://www.figma.com/file/tT1qOiIkfMvuJ6im9bWpjE/Untitled?node-id=0%3A1">Figma</a>
 
-- [Pagina](https://www.figma.com/file/tT1qOiIkfMvuJ6im9bWpjE/Untitled?node-id=0%3A1)
+- [Pagina](https://eduantvarmau.github.io/HACK-THE-OCEAN-LAUNCHX/)
 
 Hecho con 💙 por CHMOD 777
 
