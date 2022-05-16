@@ -42,9 +42,9 @@ index.html
 
 - [Pagina](https://www.figma.com/file/tT1qOiIkfMvuJ6im9bWpjE/Untitled?node-id=0%3A1)
 
-Hecho con 💙 por
+Hecho con 💙 por CHMOD 777
 
-- Eduardo Antonio Vargas Mauricio
-- Emmanuel Garcia Barron  
-- Danitza Aurora Kewley Robles
+- [Eduardo Antonio Vargas Mauricio](https://github.com/eduantvarmau)
+- [Emmanuel Garcia Barron](https://github.com/EmmnauelGAB)
+- [Danitza Aurora Kewley Robles](https://github.com/DanitzaKewley)
 ---
